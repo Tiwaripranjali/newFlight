@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flight Reservation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Reservation Test Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.FlightReservationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testFlightReservation"/>
+        </methods>
+      </class> <!-- tests.FlightReservationTest -->
+    </classes>
+  </test> <!-- Reservation Test Chrome(failed) -->
+  <test thread-count="5" name="Reservation Test Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.FlightReservationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testFlightReservation"/>
+        </methods>
+      </class> <!-- tests.FlightReservationTest -->
+    </classes>
+  </test> <!-- Reservation Test Firefox(failed) -->
+</suite> <!-- Failed suite [Flight Reservation Suite] -->
