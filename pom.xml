@@ -27,14 +27,14 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Selenium WebDriver (if you plan browser automation) -->
+        <!-- Selenium WebDriver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.21.0</version>
         </dependency>
 
-        <!-- Optional: Apache Commons for utilities -->
+        <!-- Apache Commons Lang -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -76,4 +76,3 @@
         </pluginManagement>
     </build>
 </project>
-
